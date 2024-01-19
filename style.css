@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+
+.im img{
+    width: 30px;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li{
+    float: left;
+}
+.navr li{
+    padding: 0 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: green;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 15px;
+}
+.nav a:hover{
+    color: white;
+    background-color: green;
+}
+
+.navr{
+    display: inline-flex;
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 15px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.title{
+    font-size: 6rem;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateZ(-7px)scale(1.5);
+}
+section{
+    background-color: black;
+    color: white;
+}
+
+
+.background1{
+    transform: translateZ(-15px)scale(2.1);
+}
+.background2{
+    transform: translateZ(-10px)scale(1.7);
+}
+.background3{
+    transform: translateZ(-5px)scale(1.4);
+    z-index: 100;
+}
+
+.background1,
+.background2,
+.background3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+span,
+.co h5{
+    color: red;
+}
+.co h2{
+    font-size: 50px;
+}
+.para{
+    text-align: justify;
+}
+
+
+.foot{
+    padding: 60px 0;
+}
+footer{
+    color: white;
+}
+footer h5{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+footer li{
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.mail{
+    margin-left: 50px;
+}
+.m1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey !important;
+    opacity: 1; /* Firefox */
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: #495057;
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/alapp.jpg');
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/munnar.jpg');
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/wayanad.jpg');
+}
+.pp{
+    margin-bottom: 19%;
+}
+.card button{
+    margin: 11% 0;
+}
+.r3{
+    background-color: #495057;
+}
